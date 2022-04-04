@@ -8,63 +8,64 @@
     <title>Quiz Your Friends</title>
 </head>
 <body>
+    <fieldset>
+        <form>
+            <label for="name">Name:</label><br>
+             <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+             <label for="email">Email:</label><br>
+             <input type="text" id="email" name="email" placeholder="Enter your email">
+                    
+        </form>
+        
+        <p>What’s the first thing a caterpillar usually eats after it’s born?</p>
     
-    <form>
-        <label for="name">Name:</label><br>
-         <input type="text" id="name" name="name" placeholder="Enter your name"><br>
-         <label for="email">Email:</label><br>
-         <input type="text" id="email" name="email" placeholder="Enter your email">
-                
-    </form>
+        <form>
+          <input type="radio" id="otherBugs" name="caterpillar" value="otherBugs">
+          <label for="otherBugs">Other Bugs</label><br>
+          <input type="radio" id="grass" name="caterpillar" value="grass">
+          <label for="grass">Grass</label><br>
+          <input type="radio" id="eggShell" name="caterpillar" value="eggShell">
+          <label for="eggShell">Egg shell</label><br>
+          <input type="radio" id="cornFlakes" name="caterpillar" value="cornFlakes">
+          <label for="cornFlakes">Corn Flakes</label>
+        </form>
+        <br>
+        <br>
+        
+        <form>
+            <p>Which of the following animals is not nocturnal?</p>
+            <input type="checkbox" id="nocturnal1" name="nocturnal1" value="sheep">
+            <label for="nocturnal1"> Sheep</label><br>
+            <input type="checkbox" id="nocturnal2" name="nocturnal2" value="skunk">
+            <label for="nocturnal2"> Skunk</label><br>
+            <input type="checkbox" id="nocturnal3" name="nocturnal3" value="leopard">
+            <label for="nocturnal3"> Leopard</label><br>
+            <input type="checkbox" id="nocturnal4" name="nocturnal4" value="tiger">
+            <label for="nocturnal4"> Tiger</label>
+        </form>
+        <br>
+        <br>
+        
+        <p>Walruses can eat about how many clams in one day?</p>
     
-    <p>What’s the first thing a caterpillar usually eats after it’s born?</p>
-
-    <form>
-      <input type="radio" id="otherBugs" name="caterpillar" value="otherBugs">
-      <label for="otherBugs">Other Bugs</label><br>
-      <input type="radio" id="grass" name="caterpillar" value="grass">
-      <label for="grass">Grass</label><br>
-      <input type="radio" id="eggShell" name="caterpillar" value="eggShell">
-      <label for="eggShell">Egg shell</label><br>
-      <input type="radio" id="cornFlakes" name="caterpillar" value="cornFlakes">
-      <label for="cornFlakes">Corn Flakes</label>
-    </form>
-    <br>
-    <br>
-    
-    <form>
-        <p>Which of the following animals is not nocturnal?</p>
-        <input type="checkbox" id="nocturnal1" name="nocturnal1" value="sheep">
-        <label for="nocturnal1"> Sheep</label><br>
-        <input type="checkbox" id="nocturnal2" name="nocturnal2" value="skunk">
-        <label for="nocturnal2"> Skunk</label><br>
-        <input type="checkbox" id="nocturnal3" name="nocturnal3" value="leopard">
-        <label for="nocturnal3"> Leopard</label><br>
-        <input type="checkbox" id="nocturnal4" name="nocturnal4" value="tiger">
-        <label for="nocturnal4"> Tiger</label>
-    </form>
-    <br>
-    <br>
-    
-    <p>Walruses can eat about how many clams in one day?</p>
-
-    <form action="/action_page.php">
-      <label for="clams">Choose amount of clams:</label>
-      <select name="clams" id="clams">
-        <option value="5,000">5,000</option>
-        <option value="10,000">10,000</option>
-        <option value="12,000">12,000</option>
-        <option value="16,000">16,000</option>
-      </select>
-    </form>
-    <br>
-    <br>
-    
-    <p>Bonus: Free points for telling us your favorite animal and why?</p>
-    
-    <textarea id="bonusQuestion" name="bonusQuestion" rows="4" cols="50"></textarea></textarea>
-      <br><br>
-      <input type="submit" value="Submit">
-    </form>
+        <form action="/action_page.php">
+          <label for="clams">Choose amount of clams:</label>
+          <select name="clams" id="clams">
+            <option value="5,000">5,000</option>
+            <option value="10,000">10,000</option>
+            <option value="12,000">12,000</option>
+            <option value="16,000">16,000</option>
+          </select>
+        </form>
+        <br>
+        <br>
+        
+        <p>Bonus: Free points for telling us your favorite animal and why?</p>
+        
+        <textarea id="bonusQuestion" name="bonusQuestion" rows="4" cols="50"></textarea></textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </fieldset>
 </body>
 </html>
